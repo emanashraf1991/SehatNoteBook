@@ -1,0 +1,11 @@
+F:\SehatNoteBook\SehatNoteBook.Entities\bin\Debug\net8.0\SehatNoteBook.Entities.deps.json
+F:\SehatNoteBook\SehatNoteBook.Entities\bin\Debug\net8.0\SehatNoteBook.Entities.dll
+F:\SehatNoteBook\SehatNoteBook.Entities\bin\Debug\net8.0\SehatNoteBook.Entities.pdb
+F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\SehatNoteBook.Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\SehatNoteBook.Entities.AssemblyInfoInputs.cache
+F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\SehatNoteBook.Entities.AssemblyInfo.cs
+F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\SehatNoteBook.Entities.csproj.CoreCompileInputs.cache
+F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\SehatNoteBook.Entities.dll
+F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\refint\SehatNoteBook.Entities.dll
+F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\SehatNoteBook.Entities.pdb
+F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\ref\SehatNoteBook.Entities.dll
