@@ -15,3 +15,4 @@ F:\SehatNoteBook\SehatNotebook.DataService\obj\Debug\net8.0\ref\SehatNotebook.Da
 F:\SehatNoteBook\SehatNotebook.DataService\bin\Debug\net8.0\SehatNoteBook.Entities.dll
 F:\SehatNoteBook\SehatNotebook.DataService\bin\Debug\net8.0\SehatNoteBook.Entities.pdb
 F:\SehatNoteBook\SehatNotebook.DataService\obj\Debug\net8.0\SehatNotebook.DataService.csproj.CopyComplete
+F:\SehatNoteBook\SehatNoteBook.DataService\obj\Debug\net8.0\SehatNoteBook.DataService.sourcelink.json

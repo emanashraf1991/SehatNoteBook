@@ -1,4 +1,5 @@
 using SehatNotebook.DataService.Data;
+using SehatNotebook.DataService.IConfiguration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -13,6 +14,13 @@ builder.Services.AddSwaggerGen();
 var config = builder.Configuration;
 builder.Services.AddDbContext<AppDBContext>(options=>
     options.UseSqlite(config.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
+builder.Services.AddApiVersioning(opt=>
+{    
+    opt.ReportApiVersions=true;
+    opt.AssumeDefaultVersionWhenUnspecified=true;
+    opt.DefaultApiVersion=Microsoft.AspNetCore.Mvc.ApiVersion.Default;
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
