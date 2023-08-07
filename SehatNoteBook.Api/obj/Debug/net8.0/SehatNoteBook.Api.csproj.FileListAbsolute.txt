@@ -139,3 +139,14 @@ F:\SehatNoteBook\SehatNoteBook.Api\obj\Debug\net8.0\SehatNoteBook.Api.genruntime
 F:\SehatNoteBook\SehatNoteBook.Api\obj\Debug\net8.0\ref\SehatNoteBook.Api.dll
 F:\SehatNoteBook\SehatNoteBook.Api\obj\Debug\net8.0\SehatNoteBook.Api.sourcelink.json
 F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\SehatNoteBook.Api.staticwebassets.runtime.json
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\SehatNoteBook.Authentication.dll
+F:\SehatNoteBook\SehatNoteBook.Api\bin\Debug\net8.0\SehatNoteBook.Authentication.pdb

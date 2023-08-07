@@ -2547,11 +2547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\SehatNoteBook\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj",
-      "projectName": "SehatNotebook.DataService",
-      "projectPath": "F:\\SehatNoteBook\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj",
+      "projectUniqueName": "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj",
+      "projectName": "SehatNoteBook.DataService",
+      "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj",
       "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-      "outputPath": "F:\\SehatNoteBook\\SehatNotebook.DataService\\obj\\",
+      "outputPath": "F:\\SehatNoteBook\\SehatNoteBook.DataService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

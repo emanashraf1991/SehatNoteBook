@@ -8,12 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>    
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.jwtbearer" Version="7.0.9" />    
+    <PackageReference Include="Microsoft.AspNetCore.Identity.entityframeworkcore" Version="7.0.9" />    
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.9" />    
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />    
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SehatNoteBook.DataService\SehatNoteBook.DataService.csproj" />
+    <ProjectReference Include="..\SehatNoteBook.Authentication\SehatNoteBook.Authentication.csproj" />
   </ItemGroup>
 
 </Project>

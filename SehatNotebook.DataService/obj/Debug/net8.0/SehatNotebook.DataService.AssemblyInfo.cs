@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SehatNoteBook.DataService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b16e06dfa0cf290f096b8b11ee60686f1b6f1d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6827525b4c1582f73a7b8b8ccff4a42a658421f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SehatNoteBook.DataService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SehatNoteBook.DataService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
