@@ -1,0 +1,12 @@
+F:\SehatNoteBook\SehatNoteBook.Authentication\bin\Debug\net8.0\SehatNoteBook.Authentication.deps.json
+F:\SehatNoteBook\SehatNoteBook.Authentication\bin\Debug\net8.0\SehatNoteBook.Authentication.dll
+F:\SehatNoteBook\SehatNoteBook.Authentication\bin\Debug\net8.0\SehatNoteBook.Authentication.pdb
+F:\SehatNoteBook\SehatNoteBook.Authentication\obj\Debug\net8.0\SehatNoteBook.Authentication.GeneratedMSBuildEditorConfig.editorconfig
+F:\SehatNoteBook\SehatNoteBook.Authentication\obj\Debug\net8.0\SehatNoteBook.Authentication.AssemblyInfoInputs.cache
+F:\SehatNoteBook\SehatNoteBook.Authentication\obj\Debug\net8.0\SehatNoteBook.Authentication.AssemblyInfo.cs
+F:\SehatNoteBook\SehatNoteBook.Authentication\obj\Debug\net8.0\SehatNoteBook.Authentication.csproj.CoreCompileInputs.cache
+F:\SehatNoteBook\SehatNoteBook.Authentication\obj\Debug\net8.0\SehatNoteBook.Authentication.sourcelink.json
+F:\SehatNoteBook\SehatNoteBook.Authentication\obj\Debug\net8.0\SehatNoteBook.Authentication.dll
+F:\SehatNoteBook\SehatNoteBook.Authentication\obj\Debug\net8.0\refint\SehatNoteBook.Authentication.dll
+F:\SehatNoteBook\SehatNoteBook.Authentication\obj\Debug\net8.0\SehatNoteBook.Authentication.pdb
+F:\SehatNoteBook\SehatNoteBook.Authentication\obj\Debug\net8.0\ref\SehatNoteBook.Authentication.dll
