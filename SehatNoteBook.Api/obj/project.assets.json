@@ -1358,7 +1358,7 @@
           "bin/placeholder/SehatNoteBook.Authentication.dll": {}
         }
       },
-      "SehatNoteBook.DataService/1.0.0": {
+      "SehatNotebook.DataService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1368,10 +1368,10 @@
           "microsoft.entityframeworkcore.sqlite": "7.0.9"
         },
         "compile": {
-          "bin/placeholder/SehatNoteBook.DataService.dll": {}
+          "bin/placeholder/SehatNotebook.DataService.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SehatNoteBook.DataService.dll": {}
+          "bin/placeholder/SehatNotebook.DataService.dll": {}
         }
       },
       "SehatNoteBook.Entities/1.0.0": {
@@ -3378,10 +3378,10 @@
       "path": "../SehatNoteBook.Authentication/SehatNoteBook.Authentication.csproj",
       "msbuildProject": "../SehatNoteBook.Authentication/SehatNoteBook.Authentication.csproj"
     },
-    "SehatNoteBook.DataService/1.0.0": {
+    "SehatNotebook.DataService/1.0.0": {
       "type": "project",
-      "path": "../SehatNoteBook.DataService/SehatNoteBook.DataService.csproj",
-      "msbuildProject": "../SehatNoteBook.DataService/SehatNoteBook.DataService.csproj"
+      "path": "../SehatNotebook.DataService/SehatNotebook.DataService.csproj",
+      "msbuildProject": "../SehatNotebook.DataService/SehatNotebook.DataService.csproj"
     },
     "SehatNoteBook.Entities/1.0.0": {
       "type": "project",
@@ -3396,7 +3396,7 @@
       "Microsoft.AspNetCore.Identity.entityframeworkcore >= 7.0.9",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "SehatNoteBook.Authentication >= 1.0.0",
-      "SehatNoteBook.DataService >= 1.0.0",
+      "SehatNotebook.DataService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -3407,11 +3407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\SehatNoteBook\\SehatNoteBook.Api\\SehatNoteBook.Api.csproj",
+      "projectUniqueName": "f:\\SehatNoteBook\\SehatNoteBook.Api\\SehatNoteBook.Api.csproj",
       "projectName": "SehatNoteBook.Api",
-      "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.Api\\SehatNoteBook.Api.csproj",
+      "projectPath": "f:\\SehatNoteBook\\SehatNoteBook.Api\\SehatNoteBook.Api.csproj",
       "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-      "outputPath": "F:\\SehatNoteBook\\SehatNoteBook.Api\\obj\\",
+      "outputPath": "f:\\SehatNoteBook\\SehatNoteBook.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3433,11 +3433,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {
-              "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj"
+            "f:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {
+              "projectPath": "f:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj"
             },
-            "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj": {
-              "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj"
+            "f:\\SehatNoteBook\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj": {
+              "projectPath": "f:\\SehatNoteBook\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj"
             }
           }
         }
