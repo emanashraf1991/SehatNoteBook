@@ -12,15 +12,18 @@ namespace SehatNotebook.DataService.Data
     public class UnitOfWork : IUnitOfWork,IDisposable
     {
         private readonly AppDBContext _appDBContext;
+        
         private readonly ILogger _logger;
         public IUserRepository Users {get; private set;}
-
+        public IRefreshTokenRepository RefreshTokens {get; private set;}
       
         public UnitOfWork(AppDBContext appDBContext, ILoggerFactory loggerFactory)
         {
             _appDBContext=appDBContext;
             _logger=loggerFactory.CreateLogger("db_logs");
+
             Users=new UserRepository(appDBContext,_logger);
+            RefreshTokens=new RefreshTokenRepository(appDBContext,_logger);
         }
 
         public async Task CompleteAsync()

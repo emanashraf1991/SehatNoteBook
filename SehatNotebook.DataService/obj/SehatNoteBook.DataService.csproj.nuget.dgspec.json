@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\SehatNoteBook\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj": {}
+    "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj": {}
   },
   "projects": {
-    "f:\\SehatNoteBook\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj": {
+    "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\SehatNoteBook\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj",
-        "projectName": "SehatNotebook.DataService",
-        "projectPath": "f:\\SehatNoteBook\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj",
+        "projectUniqueName": "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj",
+        "projectName": "SehatNoteBook.DataService",
+        "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\SehatNoteBook\\SehatNotebook.DataService\\obj\\",
+        "outputPath": "F:\\SehatNoteBook\\SehatNoteBook.DataService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "f:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj": {
-                "projectPath": "f:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj"
+              "F:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj": {
+                "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj"
               }
             }
           }
@@ -97,14 +97,14 @@
         }
       }
     },
-    "f:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj": {
+    "F:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj",
+        "projectUniqueName": "F:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj",
         "projectName": "SehatNoteBook.Entities",
-        "projectPath": "f:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj",
+        "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.Entities\\SehatNoteBook.Entities.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\SehatNoteBook\\SehatNoteBook.Entities\\obj\\",
+        "outputPath": "F:\\SehatNoteBook\\SehatNoteBook.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -140,6 +140,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {}
+    "F:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {}
   },
   "projects": {
-    "f:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {
+    "F:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj",
+        "projectUniqueName": "F:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj",
         "projectName": "SehatNoteBook.Authentication",
-        "projectPath": "f:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj",
+        "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\SehatNoteBook\\SehatNoteBook.Authentication\\obj\\",
+        "outputPath": "F:\\SehatNoteBook\\SehatNoteBook.Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

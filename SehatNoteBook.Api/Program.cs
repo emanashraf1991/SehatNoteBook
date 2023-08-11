@@ -7,6 +7,8 @@ using SehatNoteBook.Authentication.Configuration;
 using Microsoft.AspNetCore.Authentication.JwtBearer; 
 using Microsoft.IdentityModel.Tokens; 
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -25,6 +27,20 @@ builder.Services.AddApiVersioning(opt=>
     opt.AssumeDefaultVersionWhenUnspecified=true;
     opt.DefaultApiVersion=Microsoft.AspNetCore.Mvc.ApiVersion.Default;
 });
+
+var key=Encoding.ASCII.GetBytes( config["JwtConfig:Secret"]);
+
+var tokenValidationParameters = new TokenValidationParameters{
+        ValidateIssuerSigningKey= true,
+        IssuerSigningKey=new SymmetricSecurityKey(key),
+        ValidateIssuer=false,
+        ValidateAudience=false,
+        ValidateLifetime=false,
+        RequireExpirationTime=true
+};
+
+builder.Services.AddSingleton(tokenValidationParameters);
+
 builder.Services.Configure<JwtConfig>(config.GetSection("JwtConfig"));
 
 builder.Services.AddAuthentication(option=> {
@@ -32,17 +48,9 @@ builder.Services.AddAuthentication(option=> {
     option.DefaultScheme=JwtBearerDefaults.AuthenticationScheme;
     option.DefaultChallengeScheme=JwtBearerDefaults.AuthenticationScheme;
 })
-.AddJwtBearer(jwt=>{
-    var key=Encoding.ASCII.GetBytes( config["JwtConfig:Secret"]);
+.AddJwtBearer(jwt => {
     jwt.SaveToken=true;
-    jwt.TokenValidationParameters = new TokenValidationParameters{
-        ValidateIssuerSigningKey= true,
-        IssuerSigningKey=new SymmetricSecurityKey(key),
-        ValidateIssuer=false,
-        ValidateAudience=false,
-        ValidateLifetime=false,
-        RequireExpirationTime=true
-    };
+    jwt.TokenValidationParameters = tokenValidationParameters;
 });
 
 builder.Services.AddDefaultIdentity<IdentityUser>(opt=>

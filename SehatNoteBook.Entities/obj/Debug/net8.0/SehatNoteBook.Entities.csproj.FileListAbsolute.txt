@@ -10,3 +10,4 @@ F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\refint\SehatNoteBook.En
 F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\SehatNoteBook.Entities.pdb
 F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\ref\SehatNoteBook.Entities.dll
 F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\SehatNoteBook.Entities.sourcelink.json
+F:\SehatNoteBook\SehatNoteBook.Entities\obj\Debug\net8.0\SehatNoteBook.Entities.csproj.AssemblyReference.cache
