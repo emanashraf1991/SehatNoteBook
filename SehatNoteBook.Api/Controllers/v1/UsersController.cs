@@ -9,13 +9,15 @@ using SehatNotebook.Entities.DBSet;
  using  SehatNotebook.DataService.IConfiguration;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace SehatNoteBook.Api.Controllers.v1
 {    
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class UsersController : BaseController
     {
-        public UsersController(IUnitOfWork unitOfWork):base(unitOfWork)
+        public UsersController(IUnitOfWork unitOfWork, UserManager<IdentityUser> userManager)
+        :base(unitOfWork, userManager)
         {
             
         }

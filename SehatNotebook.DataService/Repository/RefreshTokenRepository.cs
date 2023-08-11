@@ -47,11 +47,11 @@ namespace SehatNotebook.DataService
 
         public async Task<bool> MarkrefreshTokenAsUsed(RefreshToken refreshToken)
         {
-            refreshToken.IsReused=true;
+            refreshToken.IsUsed=true;
               try{
                var token= await dbset.Where(i=>i.Token.ToLower().Equals (refreshToken.Token.ToLower())).AsNoTracking().FirstOrDefaultAsync();
                 if(token == null) return false;
-                token.IsReused = refreshToken.IsReused;
+                token.IsUsed = refreshToken.IsUsed;
                 return true;
             }
             catch(Exception ex){

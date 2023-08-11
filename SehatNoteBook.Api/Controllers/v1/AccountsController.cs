@@ -24,17 +24,16 @@ namespace SehatNoteBook.Api.Controllers.v1
 { 
     public class AccountsController : BaseController
     {
-         private readonly UserManager<IdentityUser> _userManager;
+        
          private readonly TokenValidationParameters _tokenValidationParameters;             
          private readonly JwtConfig _jwtConfig;
 
-         public AccountsController(
-            IUnitOfWork unitOfWork,
-            UserManager<IdentityUser> userManager,
+         public AccountsController(           
             TokenValidationParameters tokenValidationParameters,
-            IOptionsMonitor<JwtConfig> optionsMonitor):base(unitOfWork)
-        {
-            _userManager=userManager;
+            IOptionsMonitor<JwtConfig> optionsMonitor
+            ,IUnitOfWork unitOfWork, UserManager<IdentityUser> userManager)
+        :base(unitOfWork, userManager)
+        { 
             _tokenValidationParameters = tokenValidationParameters; 
             _jwtConfig=optionsMonitor.CurrentValue;
         }
@@ -164,8 +163,9 @@ namespace SehatNoteBook.Api.Controllers.v1
             var key = Encoding.ASCII.GetBytes(_jwtConfig.Secret);
 
             var tokenDescriptor =  new SecurityTokenDescriptor{
-                Subject = new ClaimsIdentity(new []{
+                Subject = new ClaimsIdentity(new []{ 
                     new Claim("Id", user.Id),
+                    new Claim(ClaimTypes.NameIdentifier, user.Id),
                     new Claim(JwtRegisteredClaimNames.Sub, user.Email),
                     new Claim(JwtRegisteredClaimNames.Email, user.Email),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
@@ -183,7 +183,7 @@ namespace SehatNoteBook.Api.Controllers.v1
                 AddedDate=DateTime.UtcNow,
                 Token = GenerateRefreshToken(),
                 UserId = user.Id,
-                IsReused=false,
+                IsUsed=false,
                 IsRevoked = false,
                 JwtId = token.Id,
                 Status = 1,
@@ -280,7 +280,7 @@ namespace SehatNoteBook.Api.Controllers.v1
                     };
                 }
                 //Start Processing and get new token
-                refreshTokenExist.IsReused =true;
+                refreshTokenExist.IsUsed =true;
               var updateResult=  await _unitOFWork.RefreshTokens.MarkrefreshTokenAsUsed(refreshTokenExist);
             if(updateResult){
                 await _unitOFWork.CompleteAsync();

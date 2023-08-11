@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "SehatNotebook.DataService/1.0.0": {
+      "SehatNoteBook.DataService/1.0.0": {
         "dependencies": {
           "SehatNoteBook.Entities": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
@@ -16,7 +16,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.9"
         },
         "runtime": {
-          "SehatNotebook.DataService.dll": {}
+          "SehatNoteBook.DataService.dll": {}
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -572,7 +572,7 @@
     }
   },
   "libraries": {
-    "SehatNotebook.DataService/1.0.0": {
+    "SehatNoteBook.DataService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
