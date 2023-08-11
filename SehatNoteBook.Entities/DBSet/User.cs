@@ -8,5 +8,7 @@ namespace SehatNotebook.Entities.DBSet{
         public DateTime DateOfBirth { get; set; }
         public string Country { get; set; }
         public string Email { get; set; }
+        public string MobileNumber { get; set; }
+        public string Sex { get; set; } 
      }
 }

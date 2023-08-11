@@ -664,7 +664,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.9"
         },
         "runtime": {
-          "SehatNotebook.DataService.dll": {}
+          "SehatNoteBook.DataService.dll": {}
         }
       },
       "SehatNoteBook.Entities/1.0.0": {

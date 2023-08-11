@@ -7,8 +7,9 @@ using SehatNotebook.Entities.DBSet;
 
 namespace SehatNotebook.DataService.IRepository
 {
-    public interface IUserRepository:IGenericRepository<User> 
+    public interface IUserRepository : IGenericRepository<User> 
     {
-        
+        Task<bool> UpdateUserProfile (User user);
+        Task<User> GetIdentityById(Guid UserId);
     }
 }
