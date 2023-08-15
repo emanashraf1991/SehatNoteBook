@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SehatNoteBook.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44c7b017da5cfe4c05f1584057447981c61147c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SehatNoteBook.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SehatNoteBook.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

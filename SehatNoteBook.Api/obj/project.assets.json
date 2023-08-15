@@ -3436,8 +3436,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {
-              "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj"
+            "f:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {
+              "projectPath": "f:\\SehatNoteBook\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj"
             },
             "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj": {
               "projectPath": "F:\\SehatNoteBook\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj"
