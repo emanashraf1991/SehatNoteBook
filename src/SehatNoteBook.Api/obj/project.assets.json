@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net7.0": {
       "AutoMapper/12.0.1": {
         "type": "package",
         "dependencies": {
@@ -1379,7 +1379,7 @@
       },
       "SehatNoteBook.Authentication/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/SehatNoteBook.Authentication.dll": {}
         },
@@ -1387,19 +1387,19 @@
           "bin/placeholder/SehatNoteBook.Authentication.dll": {}
         }
       },
-      "sehatnotebook.configuration/1.0.0": {
+      "SehatNoteBook.Configuration/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/sehatnotebook.configuration.dll": {}
+          "bin/placeholder/SehatNoteBook.Configuration.dll": {}
         },
         "runtime": {
-          "bin/placeholder/sehatnotebook.configuration.dll": {}
+          "bin/placeholder/SehatNoteBook.Configuration.dll": {}
         }
       },
       "SehatNotebook.DataService/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SehatNoteBook.Entities": "1.0.0",
           "microsoft.aspnetcore.identity": "2.2.0",
@@ -1415,7 +1415,7 @@
       },
       "SehatNoteBook.Entities/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.UI": "7.0.10"
         },
@@ -3450,10 +3450,10 @@
       "path": "../SehatNoteBook.Authentication/SehatNoteBook.Authentication.csproj",
       "msbuildProject": "../SehatNoteBook.Authentication/SehatNoteBook.Authentication.csproj"
     },
-    "sehatnotebook.configuration/1.0.0": {
+    "SehatNoteBook.Configuration/1.0.0": {
       "type": "project",
-      "path": "../sehatnotebook.configuration/sehatnotebook.configuration.csproj",
-      "msbuildProject": "../sehatnotebook.configuration/sehatnotebook.configuration.csproj"
+      "path": "../SehatNoteBook.Configuration/SehatNoteBook.Configuration.csproj",
+      "msbuildProject": "../SehatNoteBook.Configuration/SehatNoteBook.Configuration.csproj"
     },
     "SehatNotebook.DataService/1.0.0": {
       "type": "project",
@@ -3467,17 +3467,17 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Microsoft.AspNetCore.Authentication.jwtbearer >= 7.0.10",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.10",
       "Microsoft.AspNetCore.Identity.entityframeworkcore >= 7.0.10",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "SehatNoteBook.Authentication >= 1.0.0",
+      "SehatNoteBook.Configuration >= 1.0.0",
       "SehatNotebook.DataService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
-      "automapper >= 12.0.1",
-      "sehatnotebook.configuration >= 1.0.0"
+      "automapper >= 12.0.1"
     ]
   },
   "packageFolders": {
@@ -3487,11 +3487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\SehatNoteBook\\src\\SehatNoteBook.Api\\SehatNoteBook.Api.csproj",
+      "projectUniqueName": "H:\\Projects\\SehatNotebook\\src\\SehatNoteBook.Api\\SehatNoteBook.Api.csproj",
       "projectName": "SehatNoteBook.Api",
-      "projectPath": "f:\\SehatNoteBook\\src\\SehatNoteBook.Api\\SehatNoteBook.Api.csproj",
+      "projectPath": "H:\\Projects\\SehatNotebook\\src\\SehatNoteBook.Api\\SehatNoteBook.Api.csproj",
       "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-      "outputPath": "f:\\SehatNoteBook\\src\\SehatNoteBook.Api\\obj\\",
+      "outputPath": "H:\\Projects\\SehatNotebook\\src\\SehatNoteBook.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3502,7 +3502,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -3510,17 +3510,17 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
-            "f:\\SehatNoteBook\\src\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {
-              "projectPath": "f:\\SehatNoteBook\\src\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj"
+            "H:\\Projects\\SehatNotebook\\src\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj": {
+              "projectPath": "H:\\Projects\\SehatNotebook\\src\\SehatNoteBook.Authentication\\SehatNoteBook.Authentication.csproj"
             },
-            "f:\\SehatNoteBook\\src\\sehatnotebook.configuration\\sehatnotebook.configuration.csproj": {
-              "projectPath": "f:\\SehatNoteBook\\src\\sehatnotebook.configuration\\sehatnotebook.configuration.csproj"
+            "H:\\Projects\\SehatNotebook\\src\\sehatnotebook.configuration\\sehatnotebook.configuration.csproj": {
+              "projectPath": "H:\\Projects\\SehatNotebook\\src\\sehatnotebook.configuration\\sehatnotebook.configuration.csproj"
             },
-            "f:\\SehatNoteBook\\src\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj": {
-              "projectPath": "f:\\SehatNoteBook\\src\\SehatNotebook.DataService\\SehatNotebook.DataService.csproj"
+            "H:\\Projects\\SehatNotebook\\src\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj": {
+              "projectPath": "H:\\Projects\\SehatNotebook\\src\\SehatNoteBook.DataService\\SehatNoteBook.DataService.csproj"
             }
           }
         }
@@ -3529,14 +3529,11 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -3586,7 +3583,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

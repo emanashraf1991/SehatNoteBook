@@ -1,0 +1,11 @@
+H:\Projects\SehatNotebook\src\sehatnotebook.configuration\bin\Debug\net7.0\sehatnotebook.configuration.deps.json
+H:\Projects\SehatNotebook\src\SehatNoteBook.Configuration\bin\Debug\net7.0\sehatnotebook.configuration.dll
+H:\Projects\SehatNotebook\src\SehatNoteBook.Configuration\bin\Debug\net7.0\sehatnotebook.configuration.pdb
+H:\Projects\SehatNotebook\src\SehatNoteBook.Configuration\obj\Debug\net7.0\sehatnotebook.configuration.GeneratedMSBuildEditorConfig.editorconfig
+H:\Projects\SehatNotebook\src\SehatNoteBook.Configuration\obj\Debug\net7.0\sehatnotebook.configuration.AssemblyInfoInputs.cache
+H:\Projects\SehatNotebook\src\SehatNoteBook.Configuration\obj\Debug\net7.0\sehatnotebook.configuration.AssemblyInfo.cs
+H:\Projects\SehatNotebook\src\SehatNoteBook.Configuration\obj\Debug\net7.0\sehatnotebook.configuration.csproj.CoreCompileInputs.cache
+H:\Projects\SehatNotebook\src\SehatNoteBook.Configuration\obj\Debug\net7.0\sehatnotebook.configuration.dll
+H:\Projects\SehatNotebook\src\SehatNoteBook.Configuration\obj\Debug\net7.0\refint\sehatnotebook.configuration.dll
+H:\Projects\SehatNotebook\src\SehatNoteBook.Configuration\obj\Debug\net7.0\sehatnotebook.configuration.pdb
+H:\Projects\SehatNotebook\src\sehatnotebook.configuration\obj\Debug\net7.0\ref\sehatnotebook.configuration.dll

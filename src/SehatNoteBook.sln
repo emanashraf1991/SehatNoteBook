@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SehatNotebook.DataService",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SehatNoteBook.Entities", "SehatNoteBook.Entities\SehatNoteBook.Entities.csproj", "{995B419F-E309-4955-91B1-B6119E6C9971}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SehatNoteBook.Configuration", "SehatNoteBook.Configuration\SehatNoteBook.Configuration.csproj", "{DE195C3F-B294-4543-BAF4-4194E9705AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{995B419F-E309-4955-91B1-B6119E6C9971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{995B419F-E309-4955-91B1-B6119E6C9971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{995B419F-E309-4955-91B1-B6119E6C9971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE195C3F-B294-4543-BAF4-4194E9705AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE195C3F-B294-4543-BAF4-4194E9705AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE195C3F-B294-4543-BAF4-4194E9705AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE195C3F-B294-4543-BAF4-4194E9705AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

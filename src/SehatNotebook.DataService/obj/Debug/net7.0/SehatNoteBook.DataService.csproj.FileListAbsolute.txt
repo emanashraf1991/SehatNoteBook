@@ -1,0 +1,17 @@
+H:\Projects\SehatNotebook\src\SehatNoteBook.DataService\bin\Debug\net7.0\SehatNoteBook.DataService.deps.json
+H:\Projects\SehatNotebook\src\SehatNoteBook.DataService\bin\Debug\net7.0\SehatNoteBook.DataService.runtimeconfig.json
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\bin\Debug\net7.0\SehatNoteBook.DataService.dll
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\bin\Debug\net7.0\SehatNoteBook.DataService.pdb
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\bin\Debug\net7.0\SehatNoteBook.Entities.dll
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\bin\Debug\net7.0\SehatNoteBook.Entities.pdb
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\obj\Debug\net7.0\SehatNoteBook.DataService.csproj.AssemblyReference.cache
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\obj\Debug\net7.0\SehatNoteBook.DataService.GeneratedMSBuildEditorConfig.editorconfig
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\obj\Debug\net7.0\SehatNoteBook.DataService.AssemblyInfoInputs.cache
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\obj\Debug\net7.0\SehatNoteBook.DataService.AssemblyInfo.cs
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\obj\Debug\net7.0\SehatNoteBook.DataService.csproj.CoreCompileInputs.cache
+H:\Projects\SehatNotebook\src\SehatNoteBook.DataService\obj\Debug\net7.0\SehatNoteBook.DataService.csproj.CopyComplete
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\obj\Debug\net7.0\SehatNoteBook.DataService.dll
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\obj\Debug\net7.0\refint\SehatNoteBook.DataService.dll
+H:\Projects\SehatNotebook\src\SehatNotebook.DataService\obj\Debug\net7.0\SehatNoteBook.DataService.pdb
+H:\Projects\SehatNotebook\src\SehatNoteBook.DataService\obj\Debug\net7.0\SehatNoteBook.DataService.genruntimeconfig.cache
+H:\Projects\SehatNotebook\src\SehatNoteBook.DataService\obj\Debug\net7.0\ref\SehatNoteBook.DataService.dll
